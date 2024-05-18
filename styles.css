@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: #f9f9f9;
+}
+
+.header, .footer {
+    padding: 20px 0;
+    border-bottom: 2px solid #333;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.header p {
+    margin: 10px 0 20px;
+    font-style: italic;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #1a0dab;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.content img {
+    margin-left: 20px;
+    max-width: 200px;
+    border-radius: 10px;
+}
+
+.content div {
+    text-align: left;
+    max-width: 600px;
+}
+
+.contact-info {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 2px solid #333;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.contact-info a {
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    padding: 20px 0;
+    border-top: 2px solid #333;
+    text-align: center;
+}
+
+.footer a {
+    color: #1a0dab;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.left-header {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.left-header h1 {
+    display: inline;
+    font-size: 2em;
+}
+
+.left-header a {
+    text-decoration: none;
+    color: #333;
+}
+
+.left-header a:hover {
+    text-decoration: underline;
+}
