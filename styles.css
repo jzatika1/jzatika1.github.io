@@ -55,7 +55,7 @@ nav a:hover {
 
 .content img {
     margin-left: 20px;
-    max-width: 200px;
+    max-width: 300px; /* Increase the size as needed */
     border-radius: 10px;
 }
 
@@ -116,4 +116,9 @@ nav a:hover {
 
 .left-header a:hover {
     text-decoration: underline;
+}
+
+.profile-img {
+    max-width: 300px; /* Increase this value to make the image larger */
+    border-radius: 10px;
 }
