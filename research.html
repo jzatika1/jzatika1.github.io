@@ -3,42 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Research - J. Anthony Zatika</title>
+    <meta name="description" content="Research by J. Anthony Zatika in cybersecurity, AI, autonomous agents, and intrusion detection.">
+    <title>Research | J. Anthony Zatika</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <div class="left-header">
-            <h1><a href="index.html">J. Anthony Zatika</a></h1>
-        </div>
-        <div class="header">
-            <p>"Vision without action is a daydream, and action without vision is a nightmare."</p>
-            <nav>
+    <header class="site-header">
+        <div class="nav-shell">
+            <a class="brand" href="index.html"><strong>J. Anthony Zatika</strong><span>Cybersecurity x AI</span></a>
+            <nav class="nav-links" aria-label="Primary navigation">
                 <a href="index.html">Home</a>
                 <a href="about.html">About</a>
+                <a href="research.html" aria-current="page">Research</a>
                 <a href="publications.html">Publications</a>
-                <a href="research.html">Research</a>
                 <a href="resources.html">Resources</a>
             </nav>
         </div>
-        <div class="content">
-            <div>
-                <h2>Research</h2>
-                <p>My research is dedicated to advancing the field of artificial intelligence and its applications in cybersecurity. I am particularly focused on developing innovative AI-driven solutions that can autonomously adapt to evolving threats and complex environments. By exploring the frontiers of AI agents, hive mind concepts, and secure cloud computing, my work aims to push the boundaries of what is possible in creating intelligent, collaborative, and secure systems. Below are some of the key areas of my current research:</p>
+    </header>
 
-                <h3>AI Agents and Hive Minds</h3>
-                <p>I am currently focusing on developing AI agents that can understand and communicate with each other, working together in a coordinated manner akin to a hive mind. The goal of this research is to create systems where individual AI models, each with their own specialized capabilities, can collaborate seamlessly to achieve complex tasks. This involves exploring mechanisms for effective communication, shared learning, and decision-making processes within groups of AI agents.</p>
-                <p>This concept of a hive mind in AI has significant potential in various fields, from autonomous systems and robotics to cybersecurity. By enabling AI agents to work together as a cohesive unit, we can enhance their ability to adapt, learn from each other, and respond to dynamic environments. This research also peers into the ethical considerations and potential risks associated with creating such interconnected AI systems, ensuring that these technologies are developed responsibly.</p>
+    <main>
+        <section class="page-hero">
+            <div class="eyebrow">Research</div>
+            <h1>AI systems for real cyber defense.</h1>
+            <p class="section-lede">
+                My research connects machine learning, autonomous agents, cloud infrastructure, and cyber operations into systems that can be measured, audited, and improved.
+            </p>
+        </section>
 
-                <h3>Cybersecurity in Cloud Computing</h3>
-                <p>With the increasing adoption of cloud services, ensuring their security has become paramount. My research addresses the challenges associated with cloud security, including data breaches, virtualization vulnerabilities, and compliance issues. I develop strategies to secure cloud environments against sophisticated cyber threats.</p>
+        <section class="section compact">
+            <div class="timeline">
+                <article class="timeline-item">
+                    <div class="date">Autonomous Agent Alliances</div>
+                    <h3>Coordinated defense across specialized agents</h3>
+                    <p>
+                        Agent alliances can route artifacts, delegate analysis, combine evidence, and escalate decisions for human review. My AICCC work explores this model for cyber defense using PCAP routing, PE analysis, network anomaly detection, opcode modeling, feedback loops, and audit records.
+                    </p>
+                </article>
+
+                <article class="timeline-item">
+                    <div class="date">Machine Learning IDS</div>
+                    <h3>Engineered features, XGBoost, and real-time Zeek analysis</h3>
+                    <p>
+                        My UCC 2024 work studies practical IDS performance through reproducible preprocessing, hyperparameter optimization, model evaluation, and live network-log scoring. The focus is not just model accuracy; it is operational viability.
+                    </p>
+                </article>
+
+                <article class="timeline-item">
+                    <div class="date">Malware and Opcode Modeling</div>
+                    <h3>Classical ML for executable behavior</h3>
+                    <p>
+                        Opcode-sequence analysis remains valuable for malware detection when paired with structured preprocessing and interpretable scoring. I use HMM-style modeling as one component in a broader autonomous defense pipeline.
+                    </p>
+                </article>
+
+                <article class="timeline-item">
+                    <div class="date">Cloud Security</div>
+                    <h3>Security engineering for distributed systems</h3>
+                    <p>
+                        Cloud environments demand controls that account for identity, telemetry, runtime behavior, network exposure, and infrastructure drift. My engineering work emphasizes practical hardening and defensible architectures.
+                    </p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <div><strong>J. Anthony Zatika</strong><div>Cybersecurity, AI, autonomous agents, and infrastructure.</div></div>
+            <div class="footer-links">
+                <a href="mailto:AnthonyZ@globalizationcybersecurity.com">Email</a>
+                <a href="https://www.linkedin.com/in/j-anthony-zatika" target="_blank" rel="noreferrer">LinkedIn</a>
+                <a href="https://github.com/jzatika1" target="_blank" rel="noreferrer">GitHub</a>
+                <a href="https://orcid.org/0009-0009-4585-7685" target="_blank" rel="noreferrer">ORCID</a>
             </div>
         </div>
-        <div class="footer">
-            <a href="mailto:AnthonyZ@globalizationcybersecurity.com">Email</a>
-            <a href="https://github.com/jzatika1" target="_blank">GitHub</a>
-            <a href="https://orcid.org/0009-0009-4585-7685" target="_blank">ORCID</a>
-        </div>
-    </div>
+    </footer>
 </body>
 </html>
