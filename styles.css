@@ -107,7 +107,7 @@ a:hover {
     border-bottom: 1px solid var(--line);
     background:
         linear-gradient(90deg, rgba(243, 246, 244, 0.98) 0%, rgba(243, 246, 244, 0.9) 44%, rgba(243, 246, 244, 0.36) 72%, rgba(243, 246, 244, 0.16) 100%),
-        image-set(url("image.jpeg") 1x);
+        image-set(url("anthony-zatika-portrait-2026.jpeg") 1x);
     background-position: center right;
     background-size: auto 118%;
     background-repeat: no-repeat;
@@ -513,7 +513,7 @@ p {
         min-height: auto;
         background:
             linear-gradient(0deg, rgba(243, 246, 244, 0.98) 0%, rgba(243, 246, 244, 0.86) 62%, rgba(243, 246, 244, 0.42) 100%),
-            image-set(url("image.jpeg") 1x);
+            image-set(url("anthony-zatika-portrait-2026.jpeg") 1x);
         background-position: top center;
         background-size: 100% auto;
     }
