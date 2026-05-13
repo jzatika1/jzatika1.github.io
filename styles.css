@@ -39,6 +39,18 @@ a:hover {
     color: var(--copper);
 }
 
+.text-link {
+    color: var(--blue);
+    font-weight: 800;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
+}
+
+.text-link:hover {
+    color: var(--copper);
+}
+
 .site-header {
     position: sticky;
     top: 0;
@@ -319,6 +331,27 @@ p {
     color: #3a4049;
     font-size: 0.78rem;
     font-weight: 760;
+}
+
+.link-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.link-pill {
+    border: 1px solid var(--line);
+    padding: 8px 11px;
+    background: var(--surface);
+    color: var(--steel);
+    font-size: 0.8rem;
+    font-weight: 820;
+}
+
+.link-pill:hover {
+    border-color: var(--copper);
+    color: var(--copper);
 }
 
 .split {
