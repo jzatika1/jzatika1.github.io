@@ -218,6 +218,26 @@ p {
     color: #fff;
 }
 
+.credential-strip {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 26px;
+}
+
+.credential-badge {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    border: 2px solid var(--green);
+    padding: 0 14px;
+    background: var(--surface);
+    color: var(--green);
+    font-size: 0.84rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
 .section {
     width: min(var(--max), calc(100% - 40px));
     margin: 0 auto;
@@ -365,6 +385,16 @@ p {
     border: 1px solid var(--line);
     background: var(--surface);
     padding: 28px;
+}
+
+.panel.credential {
+    border-top: 7px solid var(--green);
+    box-shadow: var(--shadow);
+}
+
+.panel.credential h3 {
+    font-size: 1.55rem;
+    color: var(--green);
 }
 
 .panel + .panel {
